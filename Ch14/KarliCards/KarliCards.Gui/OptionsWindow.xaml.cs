@@ -39,6 +39,7 @@ namespace KarliCards.Gui
                 else
                     gameOptions = new GameOptions();
             }
+            DataContext = gameOptions;
             InitializeComponent();
         }
 
